@@ -1,4 +1,4 @@
-# Portfolio-CSS-1
+# CSS project - Portfolio-CSS-1
 
 
 <!-- [Watch 19 oct 2024 class on YouTube](https://www.youtube.com/watch?v=d-5WwPUraOU) -->
