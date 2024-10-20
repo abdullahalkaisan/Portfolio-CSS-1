@@ -10,5 +10,5 @@
 
 [LIVE website](https://abdullahalkaisan.github.io/Portfolio-CSS-1/)
 
-[Figma]([https://abdullahalkaisan.github.io/Portfolio-CSS-1/](https://www.figma.com/design/TbfsjcLnTcLaKlPIWSyYmb/Portfolio-Template-%7C-Resume-Template-(Community)?node-id=0-1&t=FBSTWvmxPZRuMJFO-1))
+[Figma](https://www.figma.com/design/TbfsjcLnTcLaKlPIWSyYmb/Portfolio-Template-%7C-Resume-Template-(Community)?node-id=0-1&t=FBSTWvmxPZRuMJFO-1)
 
