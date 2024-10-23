@@ -67,7 +67,8 @@ body{
     height: 120px;
     width: 120px;
     overflow: hidden;
-    border-radius: 39px;
+    /* border-radius: 39px; */
+    border-radius: 999px;
     margin-bottom: 5px;
     margin-top: 20px;
     cursor: pointer;
@@ -512,3 +513,172 @@ section, .sectionTitleContainer{
      width: 100%;
   }
 
+
+
+
+  .skillsWrapper, .pricePlanWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+  }
+
+  /* .pricePlanWrapper{
+    margin: 80px 0;
+  } */
+
+
+
+  .skillsWrapper .skillsCard, 
+  .pricePlanWrapper .pricePlanCard
+  {
+    width: 310px;
+    height: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    /* border-radius: 14px; */
+    /* flex: 1; */
+  }
+
+
+
+
+
+
+
+.skillsWrapper .skillsCard h3{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  }
+
+
+  
+.skillsWrapper .skillsCard h4{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+
+  }
+
+
+  .skillsWrapper .skillsCard button, .orderNow{
+color: #ff4500;
+font-size: 15px;
+outline: none;
+border: none;
+font-weight: bold;
+background-color: transparent;
+cursor: pointer;
+transition: ease .3s;
+letter-spacing: 0px;
+margin-top:10px ;
+    }
+
+
+
+    .skillsWrapper .skillsCard button:hover, .orderNow:hover{
+      color: #bb3200;
+      transition: ease .3s;
+      letter-spacing: 3px;
+          }
+
+
+
+
+
+  .pricePlanWrapper .pricePlanCard{
+    height: max-content;
+    width: 310px;
+    /* padding: 10px; */
+
+  }
+
+  .pricePlanWrapper .pricePlanCard h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 30px 0 10px 0 ;
+  }
+
+  .pricePlanWrapper .pricePlanCard h2{
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .pricePlanWrapper .pricePlanCard p{
+    width: 100%;
+    margin: 0;
+    /* margin-bottom: 10px; */
+  }
+
+  .pricePlanWrapper .pricePlanCard .planDis{
+    margin-bottom: 20px;
+  }
+
+
+
+  .pricePlanWrapper .pricePlanCard .listItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: start;
+
+
+  }
+
+  .pricePlanWrapper .pricePlanCard .listItem svg{
+    margin-right: 10px;
+ 
+  }
+
+
+
+  .pricePlanWrapper .pricePlanCard h2 span{
+    font-size: 15px;
+    font-weight: 500;
+  }
+    
+        
+  .pricePlanCard.gold {
+    position: relative;
+    /* transform: scale(1.2); */
+    /* border-radius: 14px; */
+    overflow: hidden;
+    /* box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.200); */
+  }
+
+  .pricePlanCard.gold  .mostPopular{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: orangered;
+    color: white;
+    padding: 4px 0;
+    font-size: 15px;
+  }
+
+
+
+
+.pricePlanCard.gold .orderNow{
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+      
+
+.pricePlanCard.gold .orderNow svg{
+  color: white !important;
+  display: none;
+}
